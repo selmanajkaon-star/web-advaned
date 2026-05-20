@@ -1,0 +1,17 @@
+p {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+h3 {
+    /* color: red;
+    color: rgb(255,0,0);*/
+    color: #00ff00;
+}
+
+body{
+    /*background-color: blue;*/
+    background-image: url("kosovo.png");
+    background-size: cover;
+}
