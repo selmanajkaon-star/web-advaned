@@ -1,0 +1,61 @@
+Here is an extremely simple version using plain HTML and minimal CSS. It contains a Hero section, an About section, and a Shop section.
+
+1. index.html
+HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Basic VS Code Site</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  
+  <nav>
+    <a href="#home">Home</a> |
+    <a href="#about">About Us</a> |
+    <a href="#shop">Shop</a>
+  </nav>
+
+  
+  <section id="home" class="hero">
+    <h1>Visual Studio Code</h1>
+    <p>A simple code editor for web developers.</p>
+    <img src="https://picsum.photos/400/200" alt="Code Image">
+  </section>
+
+  <hr>
+
+  <!-- About Us Section -->
+  <section id="about">
+    <h2>About Us</h2>
+    <p>We build simple extensions and themes to make coding easier in Visual Studio Code.</p>
+  </section>
+
+  <hr>
+
+  <!-- Shop Section -->
+  <section id="shop">
+    <h2>Shop</h2>
+    
+    <div class="product">
+      <img src="https://picsum.photos/150/100" alt="Theme Pack">
+      <h3>Dark Theme Pack</h3>
+      <p>Price: $5</p>
+    </div>
+
+    <div class="product">
+      <img src="https://picsum.photos/150/100" alt="Sticker Pack">
+      <h3>VS Code Stickers</h3>
+      <p>Price: $3</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 My Basic Site</p>
+  </footer>
+
+</body>
+</html>
